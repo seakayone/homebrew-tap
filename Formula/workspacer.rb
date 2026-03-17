@@ -7,16 +7,16 @@ class Workspacer < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/seakayone/workspacer/releases/download/v0.1.0/workspacer-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "1a7ab2f3263046715c9a6de06cb1519320917fa0445fed3fe7dedbd5eaca7f7a"
+      sha256 "717070151f5bff316548bed81c2d582cca80e6f60c96fb3bd54866b54b98a54a"
     else
       url "https://github.com/seakayone/workspacer/releases/download/v0.1.0/workspacer-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "af00788ea7adb244914daf0909657bab69a7f24552a0cea5361a792ecbc19ecb"
+      sha256 "c61c96d5dc4a0a7efb49e1ae89958d5cee2173a1dc5dccaf6d9750e92434eaae"
     end
   end
 
   on_linux do
     url "https://github.com/seakayone/workspacer/releases/download/v0.1.0/workspacer-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "79e19c1d6893a2e00e4a7893873cb74baa61d4802b38387c32d1dc3538452111"
+    sha256 "c8f1a94f1d005267b0ad470af25938786522786f69d344a4c75257714ce724fa"
   end
 
   def install
